@@ -18,6 +18,10 @@
 <MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
              xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- A transition describes an animation via start and end state -->
+
+
+
+
     <Transition
             app:constraintSetStart="@+id/start"
             app:constraintSetEnd="@+id/end"
@@ -28,6 +32,16 @@
         />
 
         <!-- TODO: Add KeyFrameSet and KeyPosition -->
+
+        <!-- TODO: Add KeyFrameSet and KeyPosition -->
+        <KeyFrameSet>
+            <KeyPosition
+                app:framePosition="50"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.5"
+                />
+        </KeyFrameSet>
     </Transition>
 
     <!-- Constraints to apply at the start of the animation -->
