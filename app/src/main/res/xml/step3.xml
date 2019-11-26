@@ -39,7 +39,7 @@
                 app:framePosition="50"
                 app:motionTarget="@id/moon"
                 app:keyPositionType="parentRelative"
-                app:percentY="0.5"
+                app:percentY="0.1"
                 />
         </KeyFrameSet>
     </Transition>
